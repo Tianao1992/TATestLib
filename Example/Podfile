@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TATestLib_Example' do
+  pod 'TATestLib', :path => '../'
+
+  target 'TATestLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
