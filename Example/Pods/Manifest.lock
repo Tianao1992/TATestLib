@@ -1,0 +1,16 @@
+PODS:
+  - TATestLib (0.1.0)
+
+DEPENDENCIES:
+  - TATestLib (from `../`)
+
+EXTERNAL SOURCES:
+  TATestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TATestLib: 6d6fc2e302c6587b5a6f95a638de0cff7571d143
+
+PODFILE CHECKSUM: a5fa0a6152872c8456f542bc43a0e686e049bed9
+
+COCOAPODS: 1.10.1

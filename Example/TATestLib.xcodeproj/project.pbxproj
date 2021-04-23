@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F7AA294D81EDBE15C2E1EFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		28DA34BE63E5B5342825322B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0F7AA294D81EDBE15C2E1EFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		28DA34BE63E5B5342825322B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4D6C27D702BA9463C1F58186 /* Pods_TATestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TATestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA96F00810B97F42D619A22 /* Pods-TATestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TATestLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TATestLib_Tests/Pods-TATestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TATestLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TATestLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* TATestLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TATestLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A87E9144A404ACECCFDFD9A /* TATestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TATestLib.podspec; path = ../TATestLib.podspec; sourceTree = "<group>"; };
+		6A87E9144A404ACECCFDFD9A /* TATestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TATestLib.podspec; path = ../TATestLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7D4ADFECE844083B0C52769D /* Pods-TATestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TATestLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-TATestLib_Tests/Pods-TATestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		839AED205E17A6F718B8F17E /* Pods-TATestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TATestLib_Example.release.xcconfig"; path = "Target Support Files/Pods-TATestLib_Example/Pods-TATestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AF30A2D4CBF4D6ADC2739F5B /* Pods_TATestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TATestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +156,6 @@
 				4FA96F00810B97F42D619A22 /* Pods-TATestLib_Tests.debug.xcconfig */,
 				7D4ADFECE844083B0C52769D /* Pods-TATestLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

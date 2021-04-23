@@ -1,0 +1,6 @@
+framework module TATestLib {
+  umbrella header "TATestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
